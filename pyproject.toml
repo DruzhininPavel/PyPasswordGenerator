@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "password_generator"
+version = "0.1.0"
+description = ""
+authors = ["Pavel Druzhinin"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+entry-point = "app:main"
+
+[tool.poetry.dependencies]
+python = "3.9.10"
+PySide6 = "^6.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
